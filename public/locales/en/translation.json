@@ -14,8 +14,11 @@
     "hoursLine2": "Every day – all year long",
     "hoursLine3": "Even on Poya, public & special holidays",
     "map": "Map & Directions",
-    "copyright": "© 2026 STS Hospital – Jaffna. All Rights Reserved. Web by Chakra"
-  },
+    "copyright": "© 2026 STS Hospital – Jaffna. All Rights Reserved.",
+    "createdBy": "Created by",
+    "kosaCompany": "KOSA TECH (PVT) LTD",
+    "kosaPhone": "+94 74 126 2003"
+    },
   "nextSteps": {
     "title": "Next Steps After Your Operation",
     "intro": "Follow these guidelines carefully for a smooth and safe recovery. Our team is here to support you every step of the way.",

@@ -235,3 +235,57 @@ body {
     justify-content: center;
   }
 }
+/* ---------- KOSA TECH FOOTER BRANDING ---------- */
+.footer-bottom {
+  max-width: 1200px;
+  margin: 1.5rem auto 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #b0c9da;
+}
+
+.kosa-credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #2c5a73;
+}
+
+.kosa-logo {
+  height: 28px;
+  width: auto;
+  filter: brightness(0) invert(1); /* makes SVG white */
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+.kosa-logo:hover {
+  opacity: 1;
+}
+
+.insta-link {
+  color: #e0edf5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.insta-link:hover {
+  color: #ff6b9d;
+  text-decoration: underline;
+}
+
+.kosa-phone {
+  color: #c2d9e8;
+}
+
+@media (max-width: 680px) {
+  .kosa-credit {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
