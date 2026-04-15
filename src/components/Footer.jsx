@@ -21,7 +21,7 @@ const Footer = () => {
           <p>{t('footer.hoursLine2')}</p>
           <p><em>{t('footer.hoursLine3')}</em></p>
           <p className="map-link">
-            <a href="https://maps.google.com/?q=130+1st+Cross+Street+Jaffna+Sri+Lanka" target="_blank" rel="noreferrer">
+            <a href="#" target="_blank" rel="noreferrer">
               📍 {t('footer.map')}
             </a>
           </p>
@@ -37,15 +37,9 @@ const Footer = () => {
             target="_blank" 
             rel="noreferrer"
             className="kosa-logo-link"
-            aria-label="KOSA TECH Instagram"
           >
-            <img 
-              src="/KOSA_Tech.svg" 
-              alt="KOSA TECH Logo" 
-              className="kosa-logo"
-            />
+            <img src="/KOSA_Tech.svg" alt="KOSA TECH" className="kosa-logo" />
           </a>
-          
           <div className="kosa-info">
             <span className="kosa-credit">
               {t('footer.createdBy')} <strong>{t('footer.kosaCompany')}</strong>

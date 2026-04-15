@@ -1,42 +1,52 @@
 {
   "header": {
-    "title": "STS Hospital – Jaffna",
-    "tagline": "Jaffna’s leading healthcare provider and a trusted partner in your health and wellbeing."
+    "title": "Sample Hospital",
+    "tagline": "Your trusted partner in health and wellness."
   },
   "footer": {
-    "copyright": "© 2026 STS Hospital – Jaffna. All Rights Reserved.",
+    "contact": "Contact Us",
+    "address": "123 Sample Street, Sample City, Sri Lanka",
+    "email": "info@samplehospital.lk",
+    "phone1": "+94 11 123 4567",
+    "phone2": "+94 11 123 4568",
+    "hoursTitle": "Visiting Hours",
+    "hoursLine1": "Daily from 8 AM to 8 PM",
+    "hoursLine2": "Emergencies: 24/7",
+    "hoursLine3": "Including weekends and public holidays",
+    "map": "View on Map",
+    "copyright": "© 2026 Sample Hospital. All rights reserved.",
     "createdBy": "Created by",
     "kosaCompany": "KOSA TECH (PVT) LTD",
     "kosaRights": "All Rights Reserved by KOSA TECH",
     "kosaPhone": "+94 74 126 2003"
-    },
+  },
   "nextSteps": {
-    "title": "Next Steps After Your Operation",
-    "intro": "Follow these guidelines carefully for a smooth and safe recovery. Our team is here to support you every step of the way.",
+    "title": "After Your Surgery: Recovery Guidelines",
+    "intro": "Please follow these instructions carefully to ensure a smooth and safe recovery. Our team is here to support you.",
     "steps": [
       {
-        "title": "1. Rest & Recovery",
-        "description": "Follow your doctor’s instructions on rest. Avoid strenuous activities for the first 48 hours. Keep the surgical area clean and dry."
+        "title": "1. Rest & Activity",
+        "description": "Rest for the first 24–48 hours. Avoid heavy lifting or strenuous exercise for at least one week. Short, gentle walks are encouraged."
       },
       {
-        "title": "2. Medication Schedule",
-        "description": "Take prescribed pain relievers and antibiotics exactly as directed. Do not skip doses. Contact the pharmacy if you experience any side effects."
+        "title": "2. Medications",
+        "description": "Take all prescribed medications exactly as directed. Do not stop antibiotics early. Contact our pharmacy if you experience side effects."
       },
       {
         "title": "3. Wound Care",
-        "description": "Change dressings as demonstrated by the nurse. Watch for signs of infection: redness, swelling, or unusual discharge. Call us immediately if you notice any."
+        "description": "Keep the surgical site clean and dry. Change dressings daily or as instructed. Watch for signs of infection: redness, swelling, or discharge."
       },
       {
         "title": "4. Follow‑Up Appointment",
-        "description": "You will receive a call from our scheduling team within 3 days. Please confirm your next visit. Bring all discharge documents to the appointment."
+        "description": "A nurse will call within 48 hours to schedule your follow‑up visit. Please bring your discharge summary to the appointment."
       },
       {
-        "title": "5. Activity & Diet",
-        "description": "Gradually resume light walking. Drink plenty of water and eat soft, nutritious meals. Avoid alcohol and smoking during recovery."
+        "title": "5. Diet & Hydration",
+        "description": "Start with clear liquids, then advance to bland foods. Drink plenty of water. Avoid alcohol and spicy foods for 3–5 days."
       },
       {
-        "title": "6. Emergency Contact",
-        "description": "If you experience severe pain, fever above 38°C, or bleeding, call our 24/7 emergency line: +94 21 222 6600."
+        "title": "6. When to Call Us",
+        "description": "Seek immediate help if you have fever above 38°C, severe pain not relieved by medication, heavy bleeding, or difficulty breathing."
       }
     ]
   },

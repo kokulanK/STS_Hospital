@@ -9,8 +9,8 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <img 
-          src="/STS-Hospitals-Logo.jpg" 
-          alt="STS Hospital Jaffna Logo" 
+          src="/sample-logo.png" 
+          alt="Sample Hospital Logo" 
           className="logo"
         />
         <div className="header-text">
