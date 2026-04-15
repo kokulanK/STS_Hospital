@@ -28,26 +28,33 @@ const Footer = () => {
         </div>
       </div>
       
-      {/* Bottom bar with copyright and KOSA TECH branding */}
       <div className="footer-bottom">
-        <p>{t('footer.copyright')}</p>
-        <div className="kosa-credit">
-          <img 
-            src="/KOSA_Tech.svg" 
-            alt="KOSA TECH Logo" 
-            className="kosa-logo"
-          />
-          <span>{t('footer.createdBy')} <strong>{t('footer.kosaCompany')}</strong></span>
+        <p className="hospital-copyright">{t('footer.copyright')}</p>
+        
+        <div className="kosa-section">
           <a 
             href="https://www.instagram.com/kosa_tech_pvt_ltd" 
             target="_blank" 
             rel="noreferrer"
-            className="insta-link"
+            className="kosa-logo-link"
+            aria-label="KOSA TECH Instagram"
           >
-            📷 Instagram
+            <img 
+              src="/KOSA_Tech.svg" 
+              alt="KOSA TECH Logo" 
+              className="kosa-logo"
+            />
           </a>
-          <span className="kosa-phone">📞 {t('footer.kosaPhone')}</span>
+          
+          <div className="kosa-info">
+            <span className="kosa-credit">
+              {t('footer.createdBy')} <strong>{t('footer.kosaCompany')}</strong>
+            </span>
+            <span className="kosa-phone">📞 {t('footer.kosaPhone')}</span>
+          </div>
         </div>
+        
+        <p className="kosa-rights">{t('footer.kosaRights')}</p>
       </div>
     </footer>
   );
