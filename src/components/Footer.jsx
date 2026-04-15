@@ -1,0 +1,38 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+
+const Footer = () => {
+  const { t } = useTranslation();
+  
+  return (
+    <footer className="footer">
+      <div className="footer-container">
+        <div className="footer-section">
+          <h3>{t('footer.contact')}</h3>
+          <p>{t('footer.address')}</p>
+          <p>{t('footer.email')}</p>
+          <p>{t('footer.phone1')}</p>
+          <p>{t('footer.phone2')}</p>
+        </div>
+        
+        <div className="footer-section">
+          <h3>{t('footer.hoursTitle')}</h3>
+          <p>{t('footer.hoursLine1')}</p>
+          <p>{t('footer.hoursLine2')}</p>
+          <p><em>{t('footer.hoursLine3')}</em></p>
+          <p className="map-link">
+            <a href="https://maps.google.com/?q=130+1st+Cross+Street+Jaffna+Sri+Lanka" target="_blank" rel="noreferrer">
+              📍 {t('footer.map')}
+            </a>
+          </p>
+        </div>
+      </div>
+      
+      <div className="footer-bottom">
+        <p>{t('footer.copyright')}</p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

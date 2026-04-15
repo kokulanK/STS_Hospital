@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafc;
+  color: #1e2b3c;
+  line-height: 1.6;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+/* ---------- HEADER ---------- */
+.header {
+  background: linear-gradient(135deg, #0b3b5c 0%, #1a5f7a 100%);
+  color: white;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  border-radius: 12px;
+  background: white;
+  padding: 4px;
+}
+
+.header-text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+/* ---------- NEXT STEPS SECTION ---------- */
+.next-steps-section {
+  background: white;
+  border-radius: 24px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.next-steps-section h2 {
+  font-size: 2.2rem;
+  color: #0b3b5c;
+  margin-bottom: 0.5rem;
+  border-bottom: 3px solid #4aa3c2;
+  padding-bottom: 0.75rem;
+  display: inline-block;
+}
+
+.intro {
+  font-size: 1.2rem;
+  color: #3a556e;
+  margin: 1.5rem 0 2rem;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.8rem;
+}
+
+.step-card {
+  background: #f2f7fb;
+  border-radius: 20px;
+  padding: 1.8rem 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 6px solid #1a5f7a;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+}
+
+.step-card h3 {
+  color: #0b3b5c;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.step-card p {
+  color: #2c3e50;
+  font-size: 1rem;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+  background: #0a2a3f;
+  color: #e0edf5;
+  padding: 2.5rem 1rem 1rem;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #2c5a73;
+}
+
+.footer-section h3 {
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.footer-section p {
+  margin-bottom: 0.5rem;
+  font-size: 0.98rem;
+}
+
+.footer-section a {
+  color: #aad0e6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-section a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.map-link {
+  margin-top: 1rem;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 1.5rem auto 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #b0c9da;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 680px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .header-text h1 {
+    font-size: 2rem;
+  }
+  
+  .next-steps-section {
+    padding: 1.5rem;
+  }
+  
+  .next-steps-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 1.8rem;
+  }
+}
+/* ---------- LANGUAGE SWITCHER ---------- */
+.language-switcher {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+  background: rgba(255,255,255,0.15);
+  padding: 0.3rem;
+  border-radius: 40px;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.lang-btn:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.lang-btn.active {
+  background: white;
+  color: #0b3b5c;
+}
+
+@media (max-width: 680px) {
+  .language-switcher {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    width: 100%;
+    justify-content: center;
+  }
+}

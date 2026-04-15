@@ -1,0 +1,54 @@
+{
+  "header": {
+    "title": "STS Hospital – Jaffna",
+    "tagline": "Jaffna’s leading healthcare provider and a trusted partner in your health and wellbeing."
+  },
+  "footer": {
+    "contact": "Contact Details",
+    "address": "130, 1st Cross Street, Jaffna 40000, Sri Lanka",
+    "email": "E: infstshospital@slt.lk",
+    "phone1": "+94 21 222 6600",
+    "phone2": "+94 21 222 6611",
+    "hoursTitle": "Open Hours",
+    "hoursLine1": "Daily from 6 AM to 8 PM",
+    "hoursLine2": "Every day – all year long",
+    "hoursLine3": "Even on Poya, public & special holidays",
+    "map": "Map & Directions",
+    "copyright": "© 2026 STS Hospital – Jaffna. All Rights Reserved. Web by Chakra"
+  },
+  "nextSteps": {
+    "title": "Next Steps After Your Operation",
+    "intro": "Follow these guidelines carefully for a smooth and safe recovery. Our team is here to support you every step of the way.",
+    "steps": [
+      {
+        "title": "1. Rest & Recovery",
+        "description": "Follow your doctor’s instructions on rest. Avoid strenuous activities for the first 48 hours. Keep the surgical area clean and dry."
+      },
+      {
+        "title": "2. Medication Schedule",
+        "description": "Take prescribed pain relievers and antibiotics exactly as directed. Do not skip doses. Contact the pharmacy if you experience any side effects."
+      },
+      {
+        "title": "3. Wound Care",
+        "description": "Change dressings as demonstrated by the nurse. Watch for signs of infection: redness, swelling, or unusual discharge. Call us immediately if you notice any."
+      },
+      {
+        "title": "4. Follow‑Up Appointment",
+        "description": "You will receive a call from our scheduling team within 3 days. Please confirm your next visit. Bring all discharge documents to the appointment."
+      },
+      {
+        "title": "5. Activity & Diet",
+        "description": "Gradually resume light walking. Drink plenty of water and eat soft, nutritious meals. Avoid alcohol and smoking during recovery."
+      },
+      {
+        "title": "6. Emergency Contact",
+        "description": "If you experience severe pain, fever above 38°C, or bleeding, call our 24/7 emergency line: +94 21 222 6600."
+      }
+    ]
+  },
+  "language": {
+    "en": "English",
+    "ta": "தமிழ்",
+    "si": "සිංහල"
+  }
+}
